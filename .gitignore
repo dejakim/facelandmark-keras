@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# macos temp file
+.DS_Store
+
+# data
+data/*.pickle
+data/*.xml
