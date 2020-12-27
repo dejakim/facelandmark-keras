@@ -19,7 +19,7 @@ $ python prepare.py <dataset directory>
 ```
 
 ## Data Augmentation
-For data augmentation, DataGenerator class is implemented in [datagenerator.py]('./datagenerator.py')
+For data augmentation, DataGenerator class is implemented in [datagenerator.py](./datagenerator.py)
 
 DataGenerator is enabled by default but if you want to disable it, change __use_generator = True__ to False which is defined in [train.py](./train.py).  
 DataGenerator randomly change rotation angle (0-45 deg) and scale (1.0-0.7).
